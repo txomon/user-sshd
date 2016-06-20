@@ -1,0 +1,5 @@
+Port 2222
+UsePrivilegeSeparation no
+PidFile ./sshd.pid
+AuthorizedKeysFile /home/%u/.ssh/authorized_keys /home/%u/.config/ssh/authorized_keys ./authorized_keys
+AuthenticationMethods publickey
